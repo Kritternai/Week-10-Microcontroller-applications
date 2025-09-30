@@ -1,1 +1,58 @@
-/Switch_LED/build
+# ESP-IDF Build artifacts
+build/
+**/build/
+
+# SDK Configuration (can be environment-specific)
+sdkconfig.old
+dependencies.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Compiled binaries and artifacts
+*.bin
+*.elf
+*.map
+*.o
+*.obj
+*.a
+
+# Log files
+*.log
+
+# Video and media files (if they are just demos/references)
+*.MOV
+*.mp4
+*.avi
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ESP-IDF specific
+managed_components/
+dependencies.lock
